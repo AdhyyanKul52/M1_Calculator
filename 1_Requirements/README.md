@@ -40,3 +40,8 @@
          * Unit Testing
          * Analysis
          * Code Quality - Online Tools
+     # Practice
+     * Certificates
+     * System Setup
+     * HackerEarth
+     * Project
