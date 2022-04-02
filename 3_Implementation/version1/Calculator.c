@@ -19,7 +19,7 @@ int main()
     switch (choice)  
     {  
         case 1:  
-            // Add two numbers  
+            // Addition of numbers  
             printf ("Addition");  
             printf ("\n Enter First Number: ");  
             scanf (" %d", &A);  
@@ -35,7 +35,7 @@ int main()
             printf (" Addition of A and B is: %.2f", result);  
             break;   
         case 2: 
-            // Subtract two numbers  
+            // Subtract of numbers  
             printf ("Subtraction");  
             printf ("\n Enter First Number: ");  
             scanf (" %d", &A);  
@@ -51,7 +51,7 @@ int main()
             printf (" Subtraction of A and B is: %.2f", result);  
             break;   
         case 3:  
-            // Multiplication of the numbers  
+            // Multiplication of numbers  
             printf ("Multiplication");  
             printf ("\n Enter First Number: ");  
             scanf (" %d", &A);  
@@ -67,7 +67,7 @@ int main()
             printf (" Multiplication of A and B is: %.2f", result);  
             break;  
         case 4:   
-            // Division of the numbers  
+            // Division of numbers  
             printf ("Division");  
             printf ("\n Enter First Number: ");  
             scanf (" %d", &A);  
@@ -88,7 +88,7 @@ int main()
             printf (" Division of A and B is: %.2f", result);  
             break;  
         case 5:  
-            // Square of a number  
+            // Square of any number  
             printf ("Square");  
             printf ("\n Enter First Number: ");  
             scanf (" %d", &A);  
@@ -103,7 +103,7 @@ int main()
             break;   
          
          case 6:
-                // Percentage of the number
+                // Percentage of any number
             printf("Percentage");
             printf("Enter First Number: ");
             scanf (" %d", &A);
@@ -120,7 +120,8 @@ int main()
             result=per(A,B);
             printf("%d percent of %d is : %.2f", B,A,result);
             break;
-        case 7:  
+        case 7: 
+               // If done with the Operation
             printf ("Exit");  
             exit(0);   
             break; 
