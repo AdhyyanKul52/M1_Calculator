@@ -32,7 +32,7 @@ int main()
                      return (C);
                     }
             result = sum(A,B);
-            printf (" Addition of A and B is: %.2f", result);  
+            printf (" Addition of A and B is: %.1f", result);  
             break;   
         case 2: 
             // Subtract of numbers  
@@ -48,7 +48,7 @@ int main()
                      return (C);
                     }
             result = sub(A,B);  
-            printf (" Subtraction of A and B is: %.2f", result);  
+            printf (" Subtraction of A and B is: %.1f", result);  
             break;   
         case 3:  
             // Multiplication of numbers  
@@ -64,7 +64,7 @@ int main()
                      return (C);
                     }
             result = mul(A,B); 
-            printf (" Multiplication of A and B is: %.2f", result);  
+            printf (" Multiplication of A and B is: %.1f", result);  
             break;  
         case 4:   
             // Division of numbers  
@@ -85,7 +85,7 @@ int main()
                      return (C);
                     }
             result = div(A,B); 
-            printf (" Division of A and B is: %.2f", result);  
+            printf (" Division of A and B is: %.1f", result);  
             break;  
         case 5:  
             // Square of any number  
@@ -99,7 +99,7 @@ int main()
                      return (C);
                     }
             result = sq(A); 
-            printf (" The Square of %d number is: %.2f", A, result);  
+            printf (" The Square of %d number is: %.1f", A, result);  
             break;   
          
          case 6:
@@ -118,7 +118,7 @@ int main()
                      return (C);
                     }
             result=per(A,B);
-            printf("%d percent of %d is : %.2f", B,A,result);
+            printf("%d percent of %d is : %.1f", B,A,result);
             break;
         case 7: 
                // If done with the Operation
