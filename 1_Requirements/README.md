@@ -1,47 +1,43 @@
+# Introduction
+This is a basic calculator code which is used by people to execute simple mathematical calculations.
+In this program a participant can do different types of operations like addition, substraction, multiplication, division, etc
+
 # MiniProject
 * Individual
 * C Programming
 * To apply the learnig
 
-# What it must contain
-* 100 lines of Code, Excluding printf and scanf
-* Folder structure must be 
-* Functions
-* Pointers
-* Unit Testing
-* Multifile Programming (.cfiles, .hfiles and/ Library files)
-* Makefile based compiltaion for windows and linux
-* Code Documentation - Doxygen
+# Requirements
+ * Visual Studio Code
+ * C Compilefr
+ * Linux
 
-
-* System Development Life cycle
-  * Requirements for your project
-    * What, Why, When, Who, How
-    * Analysis Strength, Weakness, Oppurtunity, Threats
-    * High Level (feature) and Low Level requirements (How is it implemented)
-  * Design
-    * Structural
-    * Behavioural
-   * Implement
-    * C Program based implementation
-   * Test plan
-    * How is the feature tested/verified - steps foe each Requiremnets captured(HLR/LLR)
-    * Once implemented, Test and Capture the outcome
-   
-   * Development Tools
-     * Build tools - gcc
-     * Makefiles
-     * Analysis 
-       * Static - Before code execution - cppcheck
-       * Dynamic - During execution - VAlgrid on Linux Or Dr. Memory on Windows
-    * CI/CD - Continous Integeration and Continous Deployment
-      * Github - Workfows
-         * Build - windows and Linux
-         * Unit Testing
-         * Analysis
-         * Code Quality - Online Tools
-     # Practice
-     * Certificates
-     * System Setup
-     * HackerEarth
-     * Project
+# High Level Requirements
+ * Features of the project
+ * It will be use for basic mathematical calculations like Addition,    Multiplication, Substraction, Division etc.
+ * You can do basic calculations by selecting different operations.
+ 
+ 
+ # Low level Requirements
+  * It does not require complex methods to calculate basic mathematical calculations.
+ 
+ # SWOT Analysis
+  Strength - Easy to perform Basic Mathematical Calculations.
+  Weakness - As of now it can't perform complex Mathematical Calculations.
+  Oppurtunity - It saves people time and it is very effective to use. Further  improvements can add more segments to make it better.
+  Threat - More advanced calculators are already in the market which can also perform complex calculations very easily so entering in to that market is very tough
+  
+  
+  # 4W's and 1H's
+  
+  # Why
+    * Reduces the complexity of soving basic mathematical operations.
+  # When 
+    * 2/04/2022
+  # Where 
+    * Using Visual Studio Code
+  # What
+    * Code for performing basic mathematical calculations.
+  # How
+    * By using C-Programming.
+    
